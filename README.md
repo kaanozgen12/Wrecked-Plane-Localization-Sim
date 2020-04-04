@@ -1,4 +1,4 @@
 # Wrecked-Plane-Localization-Sim
-![Alt text](/figures/flow_figure.png")
-![Alt text](/figures/simulation_start.png")
-![Alt text](/figures/simulation_result.png")
+![Screenshot](/figures/flow_figure.png")
+![Screenshot](/figures/simulation_start.png")
+![Screenshot](/figures/simulation_result.png")
