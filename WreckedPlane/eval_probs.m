@@ -47,8 +47,9 @@ p_stay = integral2(fun_stay, 0,L_voxel, 0,L_voxel) / L_voxel^2;
 p_trans.sum         = (1-p_stay);
 p_trans.x_positive  = r_x_positive * p_trans.sum / r_sum;
 p_trans.x_negative  = r_x_negative * p_trans.sum / r_sum;
-p_trans.y_positive  = r_y_positive * p_trans.sum / r_sum;
-p_trans.y_negative  = r_y_negative * p_trans.sum / r_sum;
+% intertwined to satisfy axis nottion
+p_trans.y_positive  = r_y_negative * p_trans.sum / r_sum;
+p_trans.y_negative  = r_y_positive * p_trans.sum / r_sum;
 end
 
 
