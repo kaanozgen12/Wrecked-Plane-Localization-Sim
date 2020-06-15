@@ -1,4 +1,4 @@
-[X,Y]=meshgrid(1:meshsize+1);
+[X,Y]=meshgrid(1:9+1);
 figure; 
 hold on;
 plot(X-0.5,Y-0.5,'k');
