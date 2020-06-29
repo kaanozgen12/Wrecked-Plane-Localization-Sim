@@ -97,7 +97,7 @@ classdef Agent
                         obj.tempCounter =1;
                     end
                 end
-                if sum(observedParticles, 'all') >0 && obj.memory.count >=2
+                if sum(observedParticles, 'all') >0 && obj.memory.count >=obj.memory.length-1
                     
                     maximum = max(max(observedParticles));
                     [x,y]=find(observedParticles==maximum);
